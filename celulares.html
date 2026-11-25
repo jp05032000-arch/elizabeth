@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El uso no regulado del teléfono celular</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📱 Uso del Celular</h1>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+
+        <div class="desplegable">
+            <button class="menu-btn">Información ▼</button>
+
+            <div class="menu-contenido">
+                <a href="#problema">El problema</a>
+                <a href="#causas">Causas</a>
+                <a href="#consecuencias">Consecuencias</a>
+            </div>
+        </div>
+
+        <a href="#videos">Videos</a>
+        <a href="#encuesta">Encuesta</a>
+        <a href="#consejos">Consejos</a>
+    </nav>
+</header>
+
+<!-- PORTADA -->
+
+<section id="inicio" class="portada">
+    <div class="portada-contenido">
+        <h2>El uso no regulado del teléfono celular</h2>
+
+        <p>
+            Conoce la importancia de controlar el uso
+            del teléfono celular y cómo puede influir
+            en nuestra vida cotidiana.
+        </p>
+
+        <a href="#problema" class="boton">Descubrir más</a>
+        <a href="#encuesta" class="boton boton-blanco">
+            Realizar encuesta
+        </a>
+    </div>
+</section>
+
+<!-- PROBLEMA -->
+
+<section id="problema" class="seccion">
+    <h2>¿Qué es el uso no regulado del celular?</h2>
+
+    <p>
+        Es utilizar el teléfono celular sin establecer
+        límites de tiempo, lo que puede provocar que
+        descuidemos nuestras actividades escolares,
+        familiares y personales.
+    </p>
+</section>
+
+<!-- CAUSAS -->
+
+<section id="causas" class="seccion fondo">
+    <h2>Principales causas</h2>
+
+    <div class="tarjetas">
+
+        <article class="tarjeta">
+            <span>📲</span>
+            <h3>Redes sociales</h3>
+            <p>Pasar demasiado tiempo viendo publicaciones
+            y contenido en redes sociales.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span>🎮</span>
+            <h3>Videojuegos</h3>
+            <p>Dedicar muchas horas a los videojuegos
+            sin controlar el tiempo.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span>🎬</span>
+            <h3>Entretenimiento</h3>
+            <p>Ver videos y contenido durante largos
+            periodos del día.</p>
+        </article>
+
+    </div>
+</section>
+
+<!-- CONSECUENCIAS -->
+
+<section id="consecuencias" class="seccion">
+    <h2>Consecuencias del uso excesivo</h2>
+
+    <div class="tarjetas">
+
+        <article class="tarjeta">
+            <span>😴</span>
+            <h3>Problemas de sueño</h3>
+            <p>Puede dificultar el descanso cuando
+            utilizamos el celular antes de dormir.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span>📚</span>
+            <h3>Distracción escolar</h3>
+            <p>Puede afectar nuestra concentración
+            durante las clases y tareas.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span>👥</span>
+            <h3>Menos convivencia</h3>
+            <p>Puede reducir el tiempo que compartimos
+            con familiares y amigos.</p>
+        </article>
+
+    </div>
+</section>
+
+<!-- VIDEOS -->
+
+<section id="videos" class="seccion fondo">
+    <h2>Videos educativos</h2>
+
+    <p>Aprende más sobre el uso responsable del celular.</p>
+
+    <div class="video-contenedor">
+        <iframe
+            src="https://www.youtube.com/embed/UCAuHguxmaY"
+            title="Uso del teléfono celular"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <a class="boton"
+       href="https://www.youtube.com/results?search_query=uso+excesivo+del+celular+y+sus+consecuencias"
+       target="_blank">
+       Ver más videos
+    </a>
+</section>
+
+<!-- ENCUESTA -->
+
+<section id="encuesta" class="seccion">
+    <h2>📋 Encuesta sobre el uso del celular</h2>
+
+    <p>Contesta las siguientes preguntas.</p>
+
+    <form id="formulario">
+
+        <div class="pregunta">
+            <label>1. ¿Cuántas horas utilizas el celular al día?</label>
+            <select name="horas" required>
+                <option value="">Selecciona una opción</option>
+                <option>Menos de 1 hora</option>
+                <option>De 1 a 3 horas</option>
+                <option>De 4 a 6 horas</option>
+                <option>De 7 a 9 horas</option>
+                <option>Más de 9 horas</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <label>2. ¿Para qué utilizas principalmente el celular?</label>
+            <select name="uso" required>
+                <option value="">Selecciona una opción</option>
+                <option>Redes sociales</option>
+                <option>Videojuegos</option>
+                <option>Estudiar</option>
+                <option>Ver videos</option>
+                <option>Comunicarse</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <label>3. ¿Utilizas el celular mientras estudias?</label>
+            <div class="opciones">
+                <label><input type="radio" name="estudio" value="Sí" required> Sí</label>
+                <label><input type="radio" name="estudio" value="No"> No</label>
+                <label><input type="radio" name="estudio" value="A veces"> A veces</label>
+            </div>
+        </div>
+
+        <div class="pregunta">
+            <label>4. ¿Crees que utilizas demasiado el celular?</label>
+            <div class="opciones">
+                <label><input type="radio" name="exceso" value="Sí" required> Sí</label>
+                <label><input type="radio" name="exceso" value="No"> No</label>
+                <label><input type="radio" name="exceso" value="A veces"> A veces</label>
+            </div>
+        </div>
+
+        <div class="pregunta">
+            <label>5. ¿El celular afecta tu descanso?</label>
+            <div class="opciones">
+                <label><input type="radio" name="descanso" value="Sí" required> Sí</label>
+                <label><input type="radio" name="descanso" value="No"> No</label>
+                <label><input type="radio" name="descanso" value="A veces"> A veces</label>
+            </div>
+        </div>
+
+        <div class="pregunta">
+            <label>6. ¿Estarías dispuesto a reducir su uso?</label>
+            <div class="opciones">
+                <label><input type="radio" name="reducir" value="Sí" required> Sí</label>
+                <label><input type="radio" name="reducir" value="No"> No</label>
+                <label><input type="radio" name="reducir" value="Tal vez"> Tal vez</label>
+            </div>
+        </div>
+
+        <button type="submit" class="boton">Enviar respuestas</button>
+        <button type="reset" class="boton limpiar">Limpiar</button>
+
+    </form>
+
+    <div id="resultado"></div>
+</section>
+
+<!-- CONSEJOS -->
+
+<section id="consejos" class="seccion fondo">
+    <h2>Consejos para utilizar responsablemente el celular</h2>
+
+    <div class="tarjetas">
+
+        <article class="tarjeta">
+            <span>⏰</span>
+            <h3>Controla tu tiempo</h3>
+            <p>Establece horarios para utilizar tu celular.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span>📖</span>
+            <h3>Prioriza tus estudios</h3>
+            <p>Evita distracciones cuando realices tus tareas.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span>🌳</span>
+            <h3>Realiza actividades</h3>
+            <p>Dedica tiempo al deporte y la convivencia.</p>
+        </article>
+
+    </div>
+</section>
+
+<footer>
+    <h3>📱 El uso no regulado del teléfono celular</h3>
+    <p>Utiliza la tecnología de manera responsable.</p>
+    <p>© 2026 - Proyecto escolar</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
